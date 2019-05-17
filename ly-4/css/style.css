@@ -1,0 +1,176 @@
+body {
+	overflow-x: hidden;
+	background-color: #E3E8EB !important;
+}
+
+button:focus {
+	outline:none !important;
+}
+
+.left {
+	background-color: #2A58AD;
+	height: 100%;
+}
+
+.small-profile {
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	border-radius: 50%;
+	border: 1px solid green;
+	background-size: cover;
+	background-image: url('../images/man.jpg');
+}
+
+.position {
+	color: #2585CF;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.update {
+	background-color: transparent;
+	color: #FFFFFF;
+	border-radius: 30px;
+	border: 2px solid #2585CF;
+	padding: 5px 15px;
+	font-size: 14px;
+}
+
+.dashboard {
+	box-sizing: border-box;
+	border-left: 5px solid #2A58AD;
+	padding: 35px;
+	cursor: pointer;
+}
+
+.dashboard-icon {
+	color: #A1B8D7;
+	font-size: 45px;
+}
+
+.dash-link {
+	color: #A1B8D7;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.dashboard:hover, .active {
+	border-left: 5px solid #24B5F4;
+	background-color: #1D4C9E;
+}
+
+.dashboard:hover .dashboard-icon {
+	color: #FFFDFE;
+}
+
+.dashboard:hover .dash-link {
+	color: #FFFDFE;
+}
+
+.link {
+	font-size: 18px;
+	font-weight: bold;
+	color: #042342 !important;
+	border-bottom: 3px solid #ffffff;
+}
+
+.link:hover {
+	color: #079FEA !important;
+	border-bottom: 3px solid #079FEA;
+}
+
+.search {
+	margin-right: 200px;
+	color: #92A6B1;
+	font-size: 20px;
+}
+
+.icon {
+	color: #99ACB3;
+	font-size: 20px;
+}
+
+.quantity {
+	width: 17px;
+	height: 17px;
+	background-color: #079FEA;
+	color: #FFFFFF;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 13px;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+
+.main {
+	padding: 40px;
+}
+
+.small-nav {
+	border-bottom: 2px solid #DBE0E4;
+}
+
+.small-nav ul li {
+	margin-right: 30px
+}
+
+.small-nav ul li a {
+	padding: 15px 0;
+	font-size: 14px;
+	font-weight: bold;
+	color: #6F818F;
+	border-bottom: 2px solid #E3E8EB;
+}
+
+.small-nav ul li a:hover {
+	color: #22A8F1;
+	border-bottom: 2px solid #22A8F1;
+}
+
+.blue {
+	color: #22A8F1;
+}
+
+.thirtythree {
+	width: 33%;
+}
+
+.sixtyseven {
+	width: 67%;
+}
+
+.f-icon {
+	border-radius: 50%;
+}
+
+.f-div {
+	display: flex;
+	width: 40px;
+	height: 40px;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background-color: #455795;
+	border-radius: 50%;
+	float: left;
+	margin-right: 20px;
+	margin-top: -5px;
+}
+
+.f-a {
+	display: inline-block;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.job-div {
+	border-bottom: 1px solid lightgray;
+	margin-top: 10px;
+	padding: 10px 0;
+}
